@@ -1,2 +1,8 @@
 <div>Access Token {{ access_token}}</div>
 <h1>Choose Spotify playlist to play</h1>
+
+<div class="autocomplete" style="width:300px;">
+    <input id="myInput" type="text" name="myCountry" placeholder="Country">
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='autocomplete.js') }}"></script>
